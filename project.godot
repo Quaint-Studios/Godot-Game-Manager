@@ -14,6 +14,10 @@ config/name="Godot Game Manager"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/game_manager/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
